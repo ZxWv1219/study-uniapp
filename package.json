@@ -42,7 +42,6 @@
   "dependencies": {
     "@dcloudio/uni-app-plus": "^2.0.0-27920200618002",
     "@dcloudio/uni-h5": "^2.0.0-27920200618002",
-    "@dcloudio/uni-helper-json": "*",
     "@dcloudio/uni-mp-360": "^2.0.0-27920200618002",
     "@dcloudio/uni-mp-alipay": "^2.0.0-27920200618002",
     "@dcloudio/uni-mp-baidu": "^2.0.0-27920200618002",
@@ -62,6 +61,7 @@
     "@dcloudio/types": "*",
     "@dcloudio/uni-automator": "^2.0.0-27920200618002",
     "@dcloudio/uni-cli-shared": "^2.0.0-27920200618002",
+    "@dcloudio/uni-helper-json": "^1.0.5",
     "@dcloudio/uni-migration": "^2.0.0-27920200618002",
     "@dcloudio/uni-template-compiler": "^2.0.0-27920200618002",
     "@dcloudio/vue-cli-plugin-hbuilderx": "^2.0.0-27920200618002",
@@ -69,6 +69,8 @@
     "@dcloudio/vue-cli-plugin-uni-optimize": "^2.0.0-27920200618002",
     "@dcloudio/webpack-uni-mp-loader": "^2.0.0-27920200618002",
     "@dcloudio/webpack-uni-pages-loader": "^2.0.0-27920200618002",
+    "@types/html5plus": "^1.0.1",
+    "@types/uni-app": "^1.4.3",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
     "babel-plugin-import": "^1.11.0",
@@ -85,5 +87,10 @@
   ],
   "uni-app": {
     "scripts": {}
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
